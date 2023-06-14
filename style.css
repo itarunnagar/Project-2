@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Here Header Section Styling */
+/* Here Header Section Styling */
+/* Here Header Section Styling */
+/* Here Header Section Styling */
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 80px;
+}
+.logo img {
+  width: 150px;
+}
+.nav-bar {
+  flex-grow: 1;
+}
+.utility {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  list-style-type: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  margin-left: 40px;
+}
+.utility li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+}
+.btn {
+  color: white;
+  background-color: #5955b3;
+  border: none;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/* Here Main Section or Hero Section Start */
+/* Here Main Section or Hero Section Start */
+/* Here Main Section or Hero Section Start */
+/* Here Main Section or Hero Section Start */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Hero Left Section */
+.heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 74px;
+  color: #3c2f60;
+}
+.heading span {
+  color: #5955b3;
+}
+.sub-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: #828282;
+  margin-top: 28px;
+  margin-bottom: 15px;
+}
+
+/* Hero Right Section */
+.hero-right-section img {
+  width: 653px;
+}

@@ -110,7 +110,7 @@
 /* Mobile Friendly */
 @media (max-width: 1100px) {
   body {
-    width: 98vw;
+    width: 97vw;
     height: 97vh;
   }
   .navigation {

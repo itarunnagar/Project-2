@@ -6,6 +6,15 @@
     <!-- Title of the Page -->
     <title>SEO Website</title>
 
+    <!-- Font Awesome CDn Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Link CSS Style Sheet -->
     <link rel="stylesheet" href="style.css" />
 
@@ -22,6 +31,11 @@
     <header>
       <!-- Here Navigation Section Start -->
       <nav class="navigation">
+        <!-- Menu Bar -->
+        <div class="menuBar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
         <!-- Logo Area -->
         <div class="logo"><img src="./assets/Logo.png" alt="logo" /></div>
 
@@ -41,7 +55,7 @@
       </nav>
     </header>
 
-    <!-- Here Hero Section or Main Section Start -->
+    <!-- Here Hero Section or Main Section Start For Laptop-->
     <main class="hero-section">
       <!-- Hero Left Section -->
       <section class="hero-left-section">
@@ -62,9 +76,40 @@
       </section>
 
       <!-- Here Hero Right Section Start -->
-      <div class="hero-right-section">
+      <section class="hero-right-section">
         <img src="./assets/Header Illustration.png" />
-      </div>
+      </section>
+    </main>
+
+
+    <!-- Here Hero Section or Main Section Start  For Mobile-->
+    <main class="hero-section-mobile">
+     
+      <!-- Here Hero Left or Upper Section Start -->
+      <section class="mobile-upper-section">
+        <img src="./assets/Header Illustration.png" />
+      </section>
+
+
+
+       <!-- Hero Left Section -->
+       <section class="mobile-down-section">
+        <!-- Here Main Headinig Start -->
+        <h1 class="mobile-heading">
+          We Help You<br />
+          <span>Crush</span> Your<br />Competition
+        </h1>
+
+        <!-- Here Sub-Heading Start -->
+        <p class="mobile-sub-heading">
+          Build trust to connect your brand to billions of users <br />and grow
+          your revenue through SEO.
+        </p>
+
+        <!-- See our Services Button -->
+        <button class="btn">See our services</button>
+      </section>
+
     </main>
   </body>
 </html>

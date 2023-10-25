@@ -16,6 +16,9 @@
   justify-content: space-between;
   margin: 25px 80px;
 }
+.menuBar {
+  display: none;
+}
 .logo img {
   width: 150px;
 }
@@ -48,7 +51,6 @@
   border-radius: 5px;
   padding: 10px 15px;
   display: flex;
-  align-items: center;
   text-align: center;
 }
 .btn:hover {
@@ -66,7 +68,9 @@
   align-items: center;
   justify-content: space-around;
 }
-
+.hero-section-mobile {
+  display: none;
+}
 /* Hero Left Section */
 .heading {
   font-family: "Poppins";
@@ -94,4 +98,81 @@
 /* Hero Right Section */
 .hero-right-section img {
   width: 653px;
+}
+
+/* Here Media Queries Section Start */
+/* Here Media Queries Section Start */
+
+/* Mobile Friendly */
+/* Mobile Friendly */
+/* Mobile Friendly */
+/* Mobile Friendly */
+/* Mobile Friendly */
+@media (max-width: 1100px) {
+  body {
+    width: 98vw;
+    height: 97vh;
+  }
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .menuBar {
+    display: block;
+  }
+  .nav-bar {
+    display: none;
+  }
+
+  .btn {
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  /* Here Main Section or Hero Section Start */
+  /* Here Main Section or Hero Section Start */
+  .hero-section {
+    display: none;
+  }
+  .hero-section-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    padding: 25px;
+    justify-content: center;
+  }
+  .mobile-upper-section img {
+    width: 280px;
+  }
+  /* Hero Left Section */
+  .mobile-heading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: #3c2f60;
+  }
+  .mobile-heading span {
+    color: #5955b3;
+  }
+  .mobile-sub-heading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #828282;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }
